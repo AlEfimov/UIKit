@@ -40,7 +40,6 @@ h3 {
   margin-bottom: 0;
 }
 
-
 .logo_circle {
     border: 3px solid rgba(31, 32, 65, 0.25);
     border-radius: 50%;
@@ -92,6 +91,7 @@ h3 {
 .colorName p {
   margin-top: 5px;
 }
+
 .textBloc {
  width: 437px;
  padding: 0;
@@ -128,20 +128,25 @@ h3 {
   font-family: "Montserrat-Bold";
 }
 
+.allConteiner {
+  width: 1160px;
+  margin-left: 140px;
+  margin-top: 72px;
+  display: flex;
+}
+
 .dataChoosing {
   width: 350px;
   height: 334px;
   background-color: #FFFFFF;
-  margin-left: 140px;
-  margin-top: 72px;
   padding-top: 40px;
   padding-left: 30px;
+  margin-bottom: 40px;
 }
 
 .arrival {
 margin-top: 22px;
 display: inline-block;
-
 }
 
 .data {
@@ -256,4 +261,153 @@ display: inline-block;
   -webkit-transform: rotate(45deg);
   margin-top: 16px;
   margin-left: 290px;
+}
+
+.elementConteiner {
+  background-color: #FFFFFF;
+  padding-top: 40px;
+  padding-left: 30px;
+  border-radius: 4px;
+}
+
+.elementConteiner h1 {
+  margin-bottom: 20px;
+}
+
+.elementConteiner h4 {
+  font-family: "Montserrat-Regular";
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(31, 32, 65, 0.25);
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.accountRegistration {
+  width: 350px;
+  height: 610px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+}
+
+.dataField {
+  width: 318px;
+  height: 42px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  display: block;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.newDataField {
+  margin-bottom: 10px;
+}
+
+.dataField h4 {
+  line-height: 18px;
+  margin-top: 12px;
+  margin-left: 15px;
+}
+
+.gender {
+  height: 24px;
+  width: 318px;
+  padding: 0;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 0.44px;
+  padding-bottom: 20.56px;
+}
+
+.gender h4 {
+  margin-right: 20px;
+}
+
+.genderCooice {
+  width: 18px;
+  height: 18px;
+  border-radius: 10px;
+  border: 1px solid #BC9CFF;
+  margin-right: 10px;
+}
+
+.genderCooiceMark {
+  width: 12px;
+  height: 12px;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 6px;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.elementConteiner h3 {
+  padding-bottom: 5px;
+}
+
+.receiveOffersBlock {
+  display: flex;
+  align-items: flex-start;
+  width: 320px;
+  padding-bottom: 7px;
+}
+
+.receiveOffersButtom {
+  width: 40px;
+  height: 20px;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 10px;
+  background: #FFFFFF;
+  padding: 0;
+  margin-right: 10px;
+}
+
+.receiveOffersButtomMark {
+  background: rgba(31, 32, 65, 0.25);
+  margin-top: 0;
+  padding: 0;
+}
+
+.goToPayment {
+  width: 320px;
+  height: 44px;
+  border-radius: 22px;
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.goToPayment h3 {
+  color: #FFFFFF;
+  margin-top: 14px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.entrance {
+  margin-top: 30px;
+  height: 99px;
+  width: 320px;
+  display: flex;
+}
+
+.entrance h4 {
+  color: #000000;
+  margin-top: 12px;
+  margin-right: 35px;
+}
+
+.enterButtom {
+  width: 99px;
+  height: 44px;
+  border-radius: 22px;
+  background-color: #FFFFFF;
+  border: 2px solid #BC9CFF
+}
+
+.enterButtom h3 {
+  color: #BC9CFF;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
 }
