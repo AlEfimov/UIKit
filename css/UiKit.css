@@ -411,3 +411,81 @@ display: inline-block;
   margin-right: auto;
   margin-top: 5px;
 }
+
+.conteiner2 {
+  margin-left: 40px;
+  padding-right: 30px;
+}
+
+.roomRate {
+  width: 350px;
+  height: 475px;
+  margin: 0;
+}
+
+.roomAndPrice {
+  display: flex;
+  align-items: baseline;
+}
+
+.roomAndPrice h3 {
+  margin-left: 8px;
+  color: #BC9CFF;
+}
+
+.roomAndPrice h4 {
+  font-weight: bold;
+  text-align: right;
+}
+
+.fon {
+  background-color: #FFFFFF;
+}
+
+.header1 {
+  width: 1440px;
+  height: 70px;
+  margin-top: 62px;
+}
+
+.contents {
+  width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.logoCircle {
+  border: 3px solid #BC9CFF;
+  border-radius: 50%;
+  height: 34px;
+  width: 34px;
+  margin-right: 12.5px;
+  float: left;
+}
+
+.logoArc {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 12.29px;
+  margin-left: 6.41px;
+}
+
+.contents ul {
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+
+.contents li {
+  list-style-type: none;
+  float: left;
+}
+
+.contents li {
+  padding-right: 20px;
+}
+
+.contents a {
+  text-decoration: none;
+}
